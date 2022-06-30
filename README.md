@@ -1,3 +1,6 @@
+![Screenshot from 2022-06-30 10-09-18](https://user-images.githubusercontent.com/1609955/176712862-ba2c247d-0e3b-42da-929c-a1ad156ecbb0.png)
+
+
 # `vial`
 
 A portable Urbit dev environment.
@@ -11,6 +14,9 @@ in the local directory.
 **Note** make sure to set `vial.sh` as executable by running `chmod +x vial.sh`
 
 Simply run `./vial.sh <path to urbit binary> <fakeship name eg. zod>`
+
+This will initialize a tmux session with three panels with a vim editor, a fakezod, 
+and a bash prompt.
 
 If you'd like to take advantage of the `hoon` syntax highlighting and vim config,
 then either add the `.vimrc` from this directory to your own, or add this line to 
@@ -28,4 +34,5 @@ any `vial`s.
 
 - Keybindings for tmux `break-pane` and ':join-pane`
 - Better support for multiple ships
+
 
