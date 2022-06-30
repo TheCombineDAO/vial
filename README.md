@@ -10,7 +10,7 @@ in the local directory.
 
 **Note** make sure to set `vial.sh` as executable by running `chmod +x vial.sh`
 
-Simply run `./vial.sh <path to urbit binary> <fakeship name eg. zod>
+Simply run `./vial.sh <path to urbit binary> <fakeship name eg. zod>`
 
 If you'd like to take advantage of the `hoon` syntax highlighting and vim config,
 then either add the `.vimrc` from this directory to your own, or add this line to 
